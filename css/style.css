@@ -48,6 +48,10 @@ a {
   font-size: 30px;
 }
 
+.label-size-40 {
+  font-size: 40px;
+}
+
 .label-size-50 {
   font-size: 50px;
 }
@@ -62,6 +66,10 @@ a {
 
 .colorPink {
   background-color: #de2660;
+}
+
+.colorGray {
+  background-color: #d9d9d9;
 }
 
 .labelColorWhite {
@@ -215,6 +223,10 @@ a {
 
 .margin-right-50 {
   margin-right: 50px;
+}
+
+.margin-right-140 {
+  margin-right: 140px;
 }
 
 .hoverHeader:hover {
