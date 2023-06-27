@@ -283,3 +283,11 @@ a {
   visibility: visible;
   opacity: 0.7;
 }
+
+.position-absolute {
+  position: absolute;
+}
+
+.display-flex {
+  display: flex;
+}
