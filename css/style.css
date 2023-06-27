@@ -193,6 +193,10 @@ a {
   margin-top: 20px;
 }
 
+.margin-top-30 {
+  margin-top: 30px;
+}
+
 .margin-top-50 {
   margin-top: 50px;
 }
@@ -207,6 +211,10 @@ a {
 
 .margin-right-20 {
   margin-right: 20px;
+}
+
+.margin-right-50 {
+  margin-right: 50px;
 }
 
 .hoverHeader:hover {
@@ -239,4 +247,23 @@ a {
 
 .text-underline {
   text-decoration: underline;
+}
+
+.divProjectsHover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #f9d8e2;
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.boxHover:hover div {
+  visibility: visible;
+  opacity: 0.7;
 }
