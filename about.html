@@ -13,6 +13,14 @@
     <link rel="icon" href="img/logotab.png" />
     <title>Catarina Mendes</title>
   </head>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style = "display: block;";
+    }
+    function closeNav() {
+      document.getElementById("myNav").style = "display: none;";
+    }
+  </script>
   <body>
     <div class="grid">
       <div class="grid-1-1"></div>
@@ -24,11 +32,11 @@
       </div>
       <div class="grid-1-1"></div>
     </div>
-    <div class="grid-1-1 height14 colorPinkSoft"></div>
+    <div class="grid-1-1 height14 colorPinkSoft display-no"></div>
     <div class="grid">
       <div class="grid-1-1"></div>
       <div class="grid-1-1">
-        <div class="grid-1-1 grid-flex margin-top-10">
+        <div class="grid-1-1 grid-flex margin-top-10 display-no">
           <div
             class="grid-1-1 labelColorPink label-size-20 label-weight-bold align-center hoverHeader cursor-pointer">
             <a href="index.html"> Projects </a>
@@ -42,11 +50,58 @@
             Contacts
           </div>
         </div>
-        <div class="grid-1-1 grid-flex margin-top-100">
-          <div class="grid-1-1 height500">
-            <img src="img/girl.png" alt="girl" />
+        <div
+          id="myNav"
+          class="grid-1-1 height100percent colorPink zindex998"
+          style="display: none">
+          <div class="grid-1-1 grid-flex">
+            <div class="grid-flex-grow"></div>
+            <div
+              class="logoWhite icon-size-270-90 icon-align-center width270 height90"></div>
+            <div class="grid-flex-grow"></div>
           </div>
-          <div class="grid-1-1">
+          <div class="width24 height24 margin-top-20 margin-left-40">
+            <div class="box box1">
+              <img
+                src="img/close.png"
+                alt="livro"
+                class="border-radius-20"
+                onclick="closeNav()" />
+            </div>
+          </div>
+          <div class="grid-1-1 margin-top-10">
+            <div
+              class="grid-1-1 labelColorWhite label-size-20 label-weight-bold align-center hoverHeader cursor-pointer margin-top-20">
+              <a href="index.html"> Projects </a>
+            </div>
+            <div
+              class="grid-1-1 labelColorWhite label-size-20 label-weight-bold align-center hoverHeader cursor-pointer margin-top-20">
+              <a href="about.html"> About </a>
+            </div>
+            <div
+              class="grid-1-1 labelColorWhite label-size-20 label-weight-bold align-center hoverHeader cursor-pointer margin-top-20">
+              Contacts
+            </div>
+          </div>
+        </div>
+        <div class="display-none-SE">
+          <div class="width24 height24 margin-top-20 margin-left-40">
+            <div class="box box1">
+              <img
+                src="img/hamburger.png"
+                alt="livro"
+                class="border-radius-20"
+                onclick="openNav()" />
+            </div>
+          </div>
+        </div>
+        <div class="grid-1-1 grid-flex margin-top-100 display-block-SE">
+          <div class="grid-1-1 height500 height1000-SE">
+            <div class="box box1">
+              <img src="img/girl.png" alt="girl" />
+            </div>
+          </div>
+          <div class="grid-1-1 margin-top-20-SE margin-left-40-SE">
             <div
               class="width270 colorBlack labelColorWhite label-size-20 align-center">
               Catarina Mendes
@@ -80,7 +135,7 @@
     <div class="grid-1-1 colorPink height300 height-reset margin-top-100">
       <div class="grid">
         <div class="grid-1-1"></div>
-        <div class="grid-1-1">
+        <div class="grid-1-1 colorPink margin-left-40-SE">
           <div
             class="grid-1-1 labelColorWhite label-size-20 label-weight-bold margin-top-50">
             Contact Us

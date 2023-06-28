@@ -359,6 +359,10 @@ a {
     height: 700px;
   }
 
+  .height1000-SE {
+    height: 1000px;
+  }
+
   .margin-top-270-SE {
     margin-top: 270px;
   }
@@ -369,5 +373,9 @@ a {
 
   .margin-left-40-SE {
     margin-left: 40px;
+  }
+
+  .margin-left-300-SE {
+    margin-left: 300px;
   }
 }
