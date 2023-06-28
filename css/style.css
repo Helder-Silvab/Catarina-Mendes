@@ -200,6 +200,12 @@ a {
   line-height: 500px;
 }
 
+.height700 {
+  vertical-align: middle;
+  height: 700px;
+  line-height: 700px;
+}
+
 .height-reset {
   vertical-align: baseline !important;
   line-height: normal !important;
