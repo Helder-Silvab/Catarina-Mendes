@@ -168,6 +168,10 @@ a {
   background-repeat: no-repeat;
 }
 
+.width24 {
+  width: 24px;
+}
+
 .width270 {
   width: 270px;
 }
@@ -180,6 +184,12 @@ a {
   vertical-align: middle;
   height: 14px;
   line-height: 14px;
+}
+
+.height24 {
+  vertical-align: middle;
+  height: 24px;
+  line-height: 24px;
 }
 
 .height90 {
@@ -247,6 +257,10 @@ a {
   margin-right: 140px;
 }
 
+.margin-left-40 {
+  margin-left: 40px;
+}
+
 .hoverHeader:hover {
   color: #000;
 }
@@ -304,4 +318,34 @@ a {
 
 .display-flex {
   display: flex;
+}
+
+.display-none-SE {
+  display: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .display-none-SE {
+    display: block;
+  }
+
+  .display-no {
+    display: none;
+  }
+
+  .margin-top-20-SE {
+    margin-top: 20px;
+  }
+
+  .height700-SE {
+    height: 700px;
+  }
+
+  .margin-top-270-SE {
+    margin-top: 270px;
+  }
+
+  .margin-left-40-SE {
+    margin-left: 40px;
+  }
 }
