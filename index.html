@@ -17,15 +17,13 @@
   <script>
     function openNav() {
       document.getElementById("myNav").style = "display: block;";
-      document.getElementById("gridClose").style = "display: none;";
     }
     function closeNav() {
-      document.getElementById("gridClose").style = "display: block;";
       document.getElementById("myNav").style = "display: none;";
     }
   </script>
   <body>
-    <div id="gridClose" class="grid">
+    <div class="grid">
       <div class="grid-1-1"></div>
       <div class="grid-1-1 grid-flex">
         <div class="grid-flex-grow"></div>
@@ -55,7 +53,7 @@
         </div>
         <div
           id="myNav"
-          class="position-absolute grid-1-1 height100percent colorPink zindex998"
+          class="grid-1-1 height100percent colorPink zindex998"
           style="display: none">
           <div class="grid-1-1 grid-flex">
             <div class="grid-flex-grow"></div>
