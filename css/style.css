@@ -324,8 +324,20 @@ a {
   display: none;
 }
 
+.height100percent {
+  height: 100%;
+}
+
+.zindex998 {
+  z-index: 998;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   .display-none-SE {
+    display: block;
+  }
+
+  .display-block-SE {
     display: block;
   }
 
