@@ -415,4 +415,8 @@ a {
   .label-size-20 {
     font-size: 40px;
   }
+
+  .label-size-70-SE {
+    font-size: 70px;
+  }
 }
